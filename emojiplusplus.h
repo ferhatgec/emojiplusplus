@@ -22,6 +22,14 @@ namespace emojiplusplus {
         {":space_invader:" , "\U0001F47E"},
         {":ambulance:" , "\U0001F691"},
         {":football:" , "\U0001F3C8"},
+        {":amphora:" , "\U0001F3FA"},
+        {":anchor:" , "\U00002693"},
+        {":anger:" , "\U0001F4A2"},
+        {":angry:" , "\U0001F620"},
+        {":anguished:" , "\U0001F627"},
+        {":ant:" , "\U0001F41C"},
+        {":signal_strength:" , "\U0001F4F6"},
+        {":arrows_counterclockwise:" , "\U0001F504"},
         {":smile:" , "\U0001F604"},
         {":zipper__mouth_face:" , "\U0001F910"}
     };  
