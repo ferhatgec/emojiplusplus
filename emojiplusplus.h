@@ -30,6 +30,12 @@ namespace emojiplusplus {
         {":ant:" , "\U0001F41C"},
         {":signal_strength:" , "\U0001F4F6"},
         {":arrows_counterclockwise:" , "\U0001F504"},
+        {":aquarius:" , "\U00002652"},
+        {":aries:" , "\U00002648"},
+        {":arrow_heading_down:" , "\U00002935"},
+        {":arrow_heading_up:" , "\U00002934"},
+        {":articulated_lorry:" , "\U0001F69B"},
+        {":art:" , "\U0001F3A8"},
         {":smile:" , "\U0001F604"},
         {":zipper__mouth_face:" , "\U0001F910"}
     };  
