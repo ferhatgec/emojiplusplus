@@ -13,6 +13,15 @@ namespace emojiplusplus {
 
     static std::map<std::string, std::string> EMOJIS = {
         {":admission_tickets:" , "\U0001F39F"},
+        {":aerial_tramway:" , "\U0001F6A1"},
+        {":airplane:" , "\U00002708"},
+        {":airplane_arriving:" , "\U0001F6EC"},
+        {":airplane_departure:" , "\U0001F6EB"},
+        {":alarm_clock:" , "\U000023F0"},
+        {":alembic:" , "\U00002697"},
+        {":space_invader:" , "\U0001F47E"},
+        {":ambulance:" , "\U0001F691"},
+        {":football:" , "\U0001F3C8"},
         {":smile:" , "\U0001F604"},
         {":zipper__mouth_face:" , "\U0001F910"}
     };  
