@@ -1,0 +1,8 @@
+setname Build
+setto g++ example.cpp -std=c++17 -o out
+
+setname Run
+setto ./out
+
+system ->Build
+system ->Run
