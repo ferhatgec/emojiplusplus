@@ -36,6 +36,12 @@ namespace emojiplusplus {
         {":arrow_heading_up:" , "\U00002934"},
         {":articulated_lorry:" , "\U0001F69B"},
         {":art:" , "\U0001F3A8"},
+        {":astonished:" , "\U0001F632"},
+        {":athletic_shoe:" , "\U0001F45F"},
+        {":atom_symbol:" , "\U0000269B"},
+        {":eggplant:" , "\U0001F346"},
+        {":atm:" , "\U0001F3E7"},
+        {":car:" , "\U0001F697"},
         {":smile:" , "\U0001F604"},
         {":zipper__mouth_face:" , "\U0001F910"}
     };  
