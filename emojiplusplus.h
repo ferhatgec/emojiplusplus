@@ -187,6 +187,7 @@ namespace emojiplusplus {
         {":beers:" , "\U0001F37B"},
         {":coffee:" , "\U00002615"},
         {":smile:" , "\U0001F604"},
+		{":thinking_face:" , "\U0001F914"},
         {":zipper__mouth_face:" , "\U0001F910"}
     };  
 
