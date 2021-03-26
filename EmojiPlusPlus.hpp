@@ -1376,11 +1376,12 @@ namespace emojiplusplus {
         }
     #endif
 
-    static std::string EmojiString(std::string s) {
-        int index = -1, i = 0, sLen  = s.size();
 
-        for(auto& ch : s) {
-            if(ch == ':') {
+    static std::string EmojiString(std::string s) {
+        int index = -1, sLen = s.size();
+
+        for(unsigned i = 0; i < sLen; i++) {
+            if(s[i] == *L":") {
                 if(index == -1) {
                     index = i;
                 }
@@ -1391,27 +1392,24 @@ namespace emojiplusplus {
                         continue;
                     }
 
-                    auto iter = emojiplusplus::Emojis.find(s.substr(index, (i - index) - 1));
+                    auto it = emojiplusplus::Emojis.find(s.substr(index, i - index + 1));
 
-                    if(iter == emojiplusplus::Emojis.end()) {
+                    if(it == emojiplusplus::Emojis.end()) {
                         index = i;
 
                         continue;
                     }
 
-                    s.replace(index, (i - index) + 1 , iter->second);
+                    s.replace(index, i - index + 1 , it->second);
 
-                    int goBack = (i - index) + 1 - iter->second.size();
+                    int goBack = i - index + 1 - it->second.size();
 
-                    sLen -= goBack;
-                    i    -= goBack;
+                    sLen  -= goBack;
+                    i     -= goBack;
                     index = -1;
                 }
             }
-
-            ++i;
         }
-
         return s;
     }
 }
